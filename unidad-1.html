@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.5">
+<meta name="author" content="Santiago Trini&#8201;&#8212;&#8201;Escuela Técnica Nº 35">
 <title>Unidad 1&#8201;&#8212;&#8201;Introducción</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -434,23 +435,66 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
+<h1>Unidad 1&#8201;&#8212;&#8201;Introducción</h1>
+<div class="details">
+<span id="author" class="author">Santiago Trini&#8201;&#8212;&#8201;Escuela Técnica Nº 35</span><br>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Contenidos</div>
+<ul class="sectlevel1">
+<li><a href="#_definición_de_computadora">Definición de computadora</a>
+<ul class="sectlevel2">
+<li><a href="#_niveles_de_abstracción">Niveles de abstracción</a></li>
+</ul>
+</li>
+<li><a href="#_arquitectura_de_von_neumann">Arquitectura de Von Neumann</a>
+<ul class="sectlevel2">
+<li><a href="#_buses">Buses</a></li>
+<li><a href="#_contador_de_programa">Contador de programa</a></li>
+<li><a href="#_ciclo_de_instrucción">Ciclo de instrucción</a></li>
+</ul>
+</li>
+<li><a href="#_unidades_de_medida">Unidades de medida</a>
+<ul class="sectlevel2">
+<li><a href="#_variables_de_tiempo_y_espacio_en_una_computadora">Variables de tiempo y espacio en una computadora</a></li>
+<li><a href="#_bits_y_bytes">Bits y bytes</a></li>
+<li><a href="#_tiempo">Tiempo</a></li>
+</ul>
+</li>
+<li><a href="#_evolución_histórica_de_la_computadora">Evolución histórica de la computadora</a>
+<ul class="sectlevel2">
+<li><a href="#_generación_cero_1642_1945">Generación cero (1642 - 1945)</a></li>
+<li><a href="#_generación_uno_1945_1953">Generación uno (1945 - 1953)</a></li>
+<li><a href="#_generación_dos_1954_1965">Generación dos (1954 - 1965)</a></li>
+<li><a href="#_generación_tres_1965_1980">Generación tres (1965 - 1980)</a></li>
+<li><a href="#_generación_cuatro_1980_actualidad">Generación cuatro (1980 - actualidad)</a></li>
+<li><a href="#_ley_de_moore">Ley de Moore</a></li>
+</ul>
+</li>
+<li><a href="#_partes_de_una_pc">Partes de una PC</a>
+<ul class="sectlevel2">
+<li><a href="#_placa_base">Placa base</a></li>
+<li><a href="#_microprocesador">Microprocesador</a></li>
+<li><a href="#_memoria_ram">Memoria RAM</a></li>
+<li><a href="#_almacenamiento_no_volátil">Almacenamiento no volátil</a></li>
+<li><a href="#_periféricos">Periféricos</a></li>
+<li><a href="#_fuente_de_alimentación">Fuente de alimentación</a></li>
+</ul>
+</li>
+<li><a href="#_ejercicios">Ejercicios</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_unidad_1introducción">Unidad 1&#8201;&#8212;&#8201;Introducción</h2>
+<div id="preamble">
 <div class="sectionbody">
-<div class="paragraph text-right">
-<p><span class="image"><img src="img/escudo.png" alt="90" width="110"></span><br>
-&#160;<br>
-<em>Escuela Técnica Nº 35 &#8220;Ing. E. Latzina&#8221;</em><br>
-<em>Santiago Trini</em></p>
+<div class="paragraph">
+<p>Una introducción a los temas de la organización y arquitectura de computadoras, la relación entre hardware y software y los componentes más usuales en una PC moderna.</p>
 </div>
-<hr>
-<div class="sect2">
-<h3 id="_organización_y_arquitectura_de_computadoras">Organización y arquitectura de computadoras</h3>
 <div class="paragraph">
 <p>Esta materia aborda la relación entre <em>hardware</em> y <em>software</em> e intenta contestar algunas preguntas referidas al diseño concreto de computadoras físicas en el mundo real.
 Hablamos de <em>software</em> cuando nos referimos a programas, sistemas operativos, aplicaciones y cualquier parte en una computadora que no podemos tocar.
@@ -467,8 +511,10 @@ Ayuda a contestar la pregunta: ¿cómo diseño una computadora?
 Estas dos disciplinas están estrechamente relacionadas y generalmente se estudian juntas.</p>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_definición_de_computadora">Definición de computadora</h3>
+</div>
+<div class="sect1">
+<h2 id="_definición_de_computadora">Definición de computadora</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Una computadora está, en esencia, compuesta por tres partes.
 Una <strong>CPU</strong> (unidad central de procesamiento), una <strong>memoria</strong>, y un <strong>sistema de E/S</strong> (entrada y salida).
@@ -482,8 +528,8 @@ Por último, seguramente cuando hablamos de computadoras estamos hablando de cir
 </div>
 <div class="title">Las tres partes funcionales de una computadora.</div>
 </div>
-<div class="sect3">
-<h4 id="_niveles_de_abstracción">Niveles de abstracción</h4>
+<div class="sect2">
+<h3 id="_niveles_de_abstracción">Niveles de abstracción</h3>
 <div class="paragraph">
 <p>Una forma de reducir la complejidad de un sistema o computadora es ir agregando <strong>capas de abstracción</strong>.
 Esto en informática es bastante común, no sólo cuando hablamos de diseñar computadoras.
@@ -519,25 +565,48 @@ En organización de computadoras hablamos de las siguientes capas o niveles de a
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_arquitectura_de_von_neumann">Arquitectura de von Neumann</h3>
+</div>
+<div class="sect1">
+<h2 id="_arquitectura_de_von_neumann">Arquitectura de Von Neumann</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>Un concepto importante para entender el funcionamiento de una computadora es el concepto de <strong>computadora de programa almacenado</strong>. En las primeras computadoras como la ENIAC programar era sinónimo de conectar cables y clavijas al estilo de las viejas operadoras telefónicas. Reprogramar una máquina era recablearla para que realice una operación distinta.</p>
 </div>
 <div class="paragraph">
-<p>En los años que se preparaba el sucesor de la ENIAC, la EDVAC, comenzó a surgir la idea de usar la memoria no sólo para almacenar los datos sobre los que un programa opera, sino también las instrucciones del programa. Un <em>paper</em> del famoso matemático John von Neumann popularizó la idea y por eso se conoce hoy como arquitectura de von Neumann.</p>
+<p>En los años que se preparaba el sucesor de la ENIAC, la EDVAC, comenzó a surgir la idea de usar la memoria no sólo para almacenar los datos sobre los que un programa opera, sino también las instrucciones del programa. Un <em>paper</em> del famoso matemático John Von Neumann popularizó la idea y por eso se conoce hoy como arquitectura de von Neumann.</p>
 </div>
 <div class="paragraph">
 <p>La idea es que una computadora son los tres sistemas que ya mencionamos: una CPU, una memoria principal y un sistema de entrada y salida. A su vez la CPU consiste de tres partes: una <strong>ALU</strong> (<em>Arithmetic Logic Unit</em>), una <strong>CU</strong> (<em>Control Unit</em>) y <strong>registros</strong> (espacios de memoria dentro de la CPU). Uno de estos registros es muy importante y recibe el nombre especial de <em>Program Counter</em> (contador de programa).</p>
 </div>
-<div class="sect3">
-<h4 id="_contador_de_programa">Contador de programa</h4>
+<div class="sect2">
+<h3 id="_buses">Buses</h3>
 <div class="paragraph">
-<p>El contador de programa es un registro que guarda la dirección de memoria de la próxima instrucción a ejecutar.</p>
+<p>Todos estos elementos mencionados arriba se comunican mediante <strong>buses</strong>. Un bus es una línea de comunicación entre dos o más unidades de la computadora. Es el camino que recorren las distintas señales digitales (unos y ceros). En los diseños más antiguos y más simples existía un sólo bus, llamado bus de sistema que comunicaba la CPU con la memoria y con los dispositivos de E/S. Hoy en día existen muchos buses internos a la computadora, organizados de forma jerárquica.</p>
+</div>
+<div class="paragraph">
+<p>Los buses se clasifican en buses de <strong>direcciones</strong> (llevan direcciones de memoria), de control (llevan señales de <strong>control</strong>, en su mayoría provienen de la unidad de control) y de <strong>datos</strong> (llevan las instrucciones o datos de un lado a otro).</p>
+</div>
+<div class="paragraph">
+<p>En esencia los buses son cables (o pistas en un PCB), pero a medida que fueron evolucionando tuvieron que añadir circuitos de control para lograr una correcta operación.</p>
+</div>
+<div class="paragraph">
+<p>Ejemplos de buses reales son el <em>FSB</em> en los motherboards para x86 de hace unos años (un bus dedicado a la comunicación entre memoria y microprocesador). El PCI Express, un bus de expansión utilizado principalmente para GPUs. O el bus SATA para discos rígidos y SSDs.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_ciclo_de_instrucción">Ciclo de instrucción</h4>
+<div class="sect2">
+<h3 id="_contador_de_programa">Contador de programa</h3>
+<div class="paragraph">
+<p>El contador de programa es un registro que guarda la dirección de memoria de la próxima instrucción a ejecutar. El concepto central en la arquitectura de Von Neumann es que datos e instrucciones se almacenan en la misma memoria. El contador de programa es indispensable porque es la única manera que tiene la CPU para saber donde se encuentra la próxima instrucción a ejecutar.</p>
+</div>
+<div class="paragraph">
+<p>En las secuencias de instrucciones más simples, el contador de programa simplemente se incrementa cada vez que la CPU trae una nueva instrucción de la memoria. El incremento del PC depende del tamaño de la instrucción en una arquitectura dada, que generalmente coincide con el tamaño de palabra. Si por ejemplo el tamaño de palabra es de 32 bits, pero la memoria es direccionable por byte, el PC incrementa 4 unidades después de traer una instrucción de la memoria principal.</p>
+</div>
+<div class="paragraph">
+<p>En muchas arquitecturas podemos encontrar otro nombre para el PC, el de <em>instruction pointer</em> (puntero de instrucción). En IA-32 (Intel x86 de 32 bits) por ejemplo el registro <strong><em>eip</em></strong> es el contador de programa. En x86 todos los registros empiezan con una &#8220;e&#8221; (<em>extended</em>) por motivos históricos.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ciclo_de_instrucción">Ciclo de instrucción</h3>
 <div class="paragraph">
 <p>Desde que se apreta el botón de encendido hasta que se apaga la computadora, la CPU ejecuta una y otra vez la misma operación de manera repetitiva.
 Esta operación se conoce como ciclo de instrucción y es la base para entender como funciona una computadora.
@@ -560,12 +629,26 @@ La interacción entre las dos se da de la siguiente manera:</p>
 </ol>
 </div>
 <div class="paragraph">
-<p>Esto se vuelve a repetir una y otra vez hasta que se apague la computadora.</p>
+<p>Esto se vuelve a repetir una y otra vez hasta que se apague la computadora.
+Pongamos un ejemplo con la arquitectura que se muestra en la imagen, de una computadora imaginaria.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/vonneumann.png" alt="Arquitectura" width="600" height="400">
+</div>
+</div>
+<div class="paragraph">
+<p>El contador de programa apunta a una dirección de memoria, supongamos que la dirección 4. En la dirección de memoria número 4 hay una cadena de bits: 0100 1001. Que traducida a lenguaje ensamblador imaginemos que dice <code>ADD 9</code>, siendo 0100 el <em>opcode</em> de la instrucción <code>ADD</code> (suma) y el 1001 es la dirección de memoria 9. Esta computadora tiene un sólo registro para realizar operaciones que tradicionalmente se le da el nombre de <strong>acumulador</strong>. La unidad de control pone una señal en el bus de control indicando a la ALU que debe realizar una suma. Las dos entradas de la ALU se alimentan del acumulador y de la memoria, la ALU realiza la operación y pone el resultado en el acumulador (de ahí el nombre). Este es un esquema muy simplificado de la operación de una computadora.</p>
+</div>
+<div class="paragraph">
+<p>Nótese que la memoria puede comunicarse a través del bus de datos directamente con la ALU para proveer uno de los operandos, pero también de manera bidireccional con el acumulador para almacenar o proveer datos a la CPU. El contador de programa sólo se comunica con la memoria a través del bus de direcciones, para indicar a la memoria cuál es la próxima instrucción. La unidad de control es la encargada de proveer de señales de control a las demás unidades funcionales a través del bus de control. Todo lo que aparece en la imagen menos la memoria es parte de la CPU. Además lo que está en color gris recibe el nombre de <em>datapath</em> (los registros y la ALU).</p>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_unidades_de_medida">Unidades de medida</h3>
+</div>
+<div class="sect1">
+<h2 id="_unidades_de_medida">Unidades de medida</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>En computación usamos los prefijos del Sistema Internacional de Unidades que se resumen en la siguiente tabla.</p>
 </div>
@@ -671,22 +754,22 @@ Por ejemplo, 1 KB (kilobyte) ¿son 1000 bytes o 1024 bytes?</p>
 </tr>
 </tbody>
 </table>
-<div class="sect3">
-<h4 id="_variables_de_tiempo_y_espacio_en_una_computadora">Variables de tiempo y espacio en una computadora</h4>
+<div class="sect2">
+<h3 id="_variables_de_tiempo_y_espacio_en_una_computadora">Variables de tiempo y espacio en una computadora</h3>
 <div class="paragraph">
 <p>Cuando hablamos de tiempo y espacio en computación nos referimos a la velocidad a la que opera una computadora y la cantidad de información que puede almacenar.
 La velocidad de una computadora es en esencia la cantidad de instrucciones que puede ejecutar por unidad de tiempo, aunque no hay una sola forma de medir esto.
 La cantidad de almacenamiento se mide en bits y sus múltiplos, porque en esencia todo la información almacenada son números en binario.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_bits_y_bytes">Bits y bytes</h4>
+<div class="sect2">
+<h3 id="_bits_y_bytes">Bits y bytes</h3>
 <div class="paragraph">
 <p>Un poco de terminología: un bit es la unidad mínima de información, un uno o un cero. Un byte por razones históricas decantó en la suma de 8 bits. Cuando hablamos de memoria en general por el método de fabricación electrónica tiene más sentido usar los múltiplos de base binaria. Por lo tanto, aunque a veces se produce confusión, es conveniente decir 1 KiB para referirse a 1024 bytes y no un KB que estrictamente serían 1000 bytes. 1 MiB son 1024 KiB, 1 GiB son 1024 MiB y así sucesivamente. Muchas veces se usa KB y KiB o los otros múltiplos indistintamente.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_tiempo">Tiempo</h4>
+<div class="sect2">
+<h3 id="_tiempo">Tiempo</h3>
 <div class="paragraph">
 <p>La primer medida de la velocidad que suele presentarse es la frecuencia de reloj, generalmente de la CPU en Hz o sus múltiplos. Por ejemplo decimos que una computadora es más rápida que otra porque una tiene un microprocesador 2 GHz más veloz que la otra. Esto es acertado sólo en parte, ya que hay muchas más variables que determinan la velocidad de ejecución de un programa.</p>
 </div>
@@ -697,12 +780,23 @@ La cantidad de almacenamiento se mide en bits y sus múltiplos, porque en esenci
 <p>Otra menos obvia es el diseño mismo de la CPU, su microarquitectura. Supongamos dos microprocesadores corriendo a la misma frecuencia y con el mismo conjunto de instrucciones. Pero el diseño interno de un procesador le permite ejecutar dos instrucciones por ciclo de reloj contra una instrucción por el otro. Por lo tanto una medida que a veces se toma como sinónimo de desempeño son los MIPS (millones de instrucciones por segundo). Los MIPS están relacionados con la frecuencia y con la cantidad de instrucciones que ejecuta una CPU por ciclo de reloj llamado generalmente IPC (instrucciones por ciclo). Las IPC son el inverso multiplicativo de las CPI (ciclos por instrucción) que es una medida de desempeño más utilizada en la literatura técnica.</p>
 </div>
 <div class="paragraph">
-<p>Los MIPS y CPI son buenas medidas de desempeño pero más bien anticuadas, están ligadas al desempeño de una CPU con números enteros. Actualmente las operaciones de coma flotante tienen más importancia y se suele dar un número que indica la velocidad con la que la CPU procesa este tipo de operaciones. Esta medida se conoce como FLOPS (<em>floating point operations per second</em>) y se expresa utilizando múltiplos como MFLOS (megaflops), GFLOPS y TFLOPS. Las GPUs (<em>graphic processing units</em>) modernas ya exceden la barrera del TFLOP (10<sup>12</sup> operaciones de coma flotante por segundo).</p>
+<p>Los MIPS y CPI son buenas medidas de desempeño pero más bien anticuadas, están ligadas al desempeño de una CPU con números enteros. Actualmente las operaciones de coma flotante tienen más importancia y se suele dar un número que indica la velocidad con la que la CPU procesa este tipo de operaciones. Esta medida se conoce como FLOPS (<em>floating point operations per second</em>) y se expresa utilizando múltiplos como MFLOPS (megaflops), GFLOPS y TFLOPS. Las GPUs (<em>graphic processing units</em>) modernas ya exceden la barrera del TFLOP (10<sup>12</sup> operaciones de coma flotante por segundo).</p>
+</div>
+<div class="paragraph">
+<p>Otra medida de velocidad importante a tener en cuenta es la de las líneas de comunicación. Entendemos por líneas de comunicación los <strong>buses</strong> internos de la computadora que llevan datos de una unidad funcional a otra, pero también los enlaces de red, o las formas de comunicación con periféricos fuera del gabinete de la computadora.</p>
+</div>
+<div class="paragraph">
+<p>El más importante de todos los buses es el que existe entre la memoria y la CPU. La velocidad de este bus limita el rendimiento de la computadora en su totalidad porque la computadora funciona constantemente trayendo y llevando datos de la memoria a la CPU. La velocidad de una línea de comunicación puede medirse en <strong>baudios</strong> (bits por segundo), o bytes por segundo y sus múltiplos (GB/s por ejemplo). También es usual encontrar en los buses internos de una computadora su velocidad de transferencia medida en transferencias por segundo y sus múltiplos (GT/s por ejemplo).</p>
+</div>
+<div class="paragraph">
+<p>Los baudios son una medida histórica asociada a las redes de telecomunicaciones y son más usuales en las interfaces de red y en los viejos puertos serie (RS-232). Por ejemplo cuando contratamos un servicio de internet se nos ofrecen velocidades del orden de los Mbps (<em>megabits per second</em>).</p>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_evolución_histórica_de_la_computadora">Evolución histórica de la computadora</h3>
+</div>
+<div class="sect1">
+<h2 id="_evolución_histórica_de_la_computadora">Evolución histórica de la computadora</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>En esta sección hacemos un breve repaso por la evolución histórica de la computadora.
 La importancia de conocer brevemente la historia de la computadora es que nos ayuda a comprender mejor el funcionamiento de la misma y las abstracciones más comunes que perduran al día de hoy, más allá de los cambios en la tecnología que se producen a un ritmo bastante acelerado.</p>
@@ -710,15 +804,15 @@ La importancia de conocer brevemente la historia de la computadora es que nos ay
 <div class="paragraph">
 <p>La mayoría de los manuales coinciden en agrupar a las distintas computadoras en <strong>generaciones</strong> basadas en la tecnología disponible en el momento para implementar los circuitos digitales básicos que constituyen las distintas partes de una computadora programable.</p>
 </div>
-<div class="sect3">
-<h4 id="_generación_cero_1642_1945">Generación cero (1642 - 1945)</h4>
+<div class="sect2">
+<h3 id="_generación_cero_1642_1945">Generación cero (1642 - 1945)</h3>
 <div class="paragraph">
 <p>Estas primeras máquinas de calcular y computadoras no eran electrónicas, sino mecánicas y luego electromecánicas.
 No eran computadoras programables en el sentido que entendemos hoy en día, excepto por contadas excepciones como la Z1 de Konrad Zuse o la Máquina Analítica de Charles Babbage. Es con esta última máquina que se reconoce la invención del primer programa de computadora y a la primer programadora: Ada Lovelace.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_generación_uno_1945_1953">Generación uno (1945 - 1953)</h4>
+<div class="sect2">
+<h3 id="_generación_uno_1945_1953">Generación uno (1945 - 1953)</h3>
 <div class="paragraph">
 <p>La primer generación de computadoras está caracterizada por utilizar <strong>tubos de vacío</strong>. Un tubo de vacío puede ser utilizado como un interruptor controlado electrónicamente y es el antecesor directo del transistor.</p>
 </div>
@@ -729,8 +823,8 @@ No eran computadoras programables en el sentido que entendemos hoy en día, exce
 <p>Por ejemplo, la ENIAC se creó originalmente para calcular tablas balísticas para el ejército y el cálculo de una tabla que antes llevaba 20 horas se acortó a 30 segundos.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_generación_dos_1954_1965">Generación dos (1954 - 1965)</h4>
+<div class="sect2">
+<h3 id="_generación_dos_1954_1965">Generación dos (1954 - 1965)</h3>
 <div class="paragraph">
 <p>En 1948 se inventó el <strong>transistor</strong> y poco tiempo después esta nueva tecnología reemplazó a los tubos de vacío en las computadoras. Esto permitió construir computadoras más pequeñas y que consumieran menos energía. La ENIAC por ejemplo consumía 174 kilowatts y ocupaba 168 metros cuadrados. Como los transistores consumían menos energía también se calentaban menos y permitían mayores velocidades. Además el cambio de tecnología bajó los precios.</p>
 </div>
@@ -738,8 +832,8 @@ No eran computadoras programables en el sentido que entendemos hoy en día, exce
 <p>Por ejemplo, la IBM 7090 era seis veces más rápida que su antecesora con tubos de vacío, y podía ser alquilada por la mitad de su precio.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_generación_tres_1965_1980">Generación tres (1965 - 1980)</h4>
+<div class="sect2">
+<h3 id="_generación_tres_1965_1980">Generación tres (1965 - 1980)</h3>
 <div class="paragraph">
 <p>En 1959 Jack Kilby inventa el <strong>circuito integrado</strong>. Este nuevo método de fabricación consiste en incorporar los transistores y otros componentes electrónicos en un área pequeña de material semiconductor mediante <strong>fotolitografía</strong>. Por lo tanto los transistores se miniaturizan y consumen aún menos energía que en sus versiones discretas.</p>
 </div>
@@ -747,8 +841,8 @@ No eran computadoras programables en el sentido que entendemos hoy en día, exce
 <p>Esto se tradujo en menores costos, más velocidad y menor tamaño. La tendencia es clara. En esta generación las computadoras comenzaron a ser más accesibles y ya se podían encontrar no sólo en grandes empresas multinacionales o agencias de gobierno, sino también en universidades aunque no aún en los hogares. Algunos ejemplos de esta generación son la IBM System/360 o la PDP-11. Esta última fue la primer computadora en correr UNIX.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_generación_cuatro_1980_actualidad">Generación cuatro (1980 - actualidad)</h4>
+<div class="sect2">
+<h3 id="_generación_cuatro_1980_actualidad">Generación cuatro (1980 - actualidad)</h3>
 <div class="paragraph">
 <p>Los circuitos integrados se clasifican por su <strong>nivel de integración</strong>:</p>
 </div>
@@ -804,8 +898,8 @@ VLSI
 <div class="title">Comparación entre tecnologías, en sentido horario: tubo de vacío, transistor, integrado con 3200 compuertas NAND, varios circuitos integrados en un solo empaquetado sin la cubierta cerámica.</div>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_ley_de_moore">Ley de Moore</h4>
+<div class="sect2">
+<h3 id="_ley_de_moore">Ley de Moore</h3>
 <div class="paragraph">
 <p>La ley de Moore es una observación empírica formulada por Gordon Moore, uno de los fundadores de Intel. Lo que la experiencia demuestra es que la cantidad de transistores en un circuito integrado se duplica cada 18 meses.</p>
 </div>
@@ -814,19 +908,21 @@ VLSI
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="_partes_de_una_pc">Partes de una PC</h3>
+</div>
+<div class="sect1">
+<h2 id="_partes_de_una_pc">Partes de una PC</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p>La PC o computadora personal nació en los años '80 y sigue siendo un estándar en uso hoy en día. A continuación repasamos brevemente los elementos de <em>hardware</em> típicos en una PC de escritorio.</p>
 </div>
-<div class="sect3">
-<h4 id="_placa_base">Placa base</h4>
+<div class="sect2">
+<h3 id="_placa_base">Placa base</h3>
 <div class="paragraph">
 <p>El <em>motherboard</em> o placa base cumple con diversas funciones dentro de una computadora. En esencia sirve como un circuito que conecta las tres partes de una computadora: memoria, CPU y E/S. Pero en su evolución histórica fue adquiriendo más o menos características propias, generalmente en relación con el sistema de E/S, y en menor medida con la comunicación directa entre CPU y memoria.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_microprocesador">Microprocesador</h4>
+<div class="sect2">
+<h3 id="_microprocesador">Microprocesador</h3>
 <div class="paragraph">
 <p>En todas las PC un microprocesador es el circuito integrado que cumple la función de CPU. De todos los circuitos integrados que integran una computadora el microprocesador es lejos el más complejo y con más cantidad de transistores por área. Para entender la diferencia entre un microprocesador y una CPU, esta última es parte de cualquier computadora, pero en la década del '70 no era posible incluir todos los elementos que hacen una CPU en un solo circuito integrado. En 1971 Intel consigue fabricar el 4004, el primer microprocesador desarrollado para una calculadora, y en 1974 el 8080, el primer microprocesador de uso general pensado como la CPU de una computadora. El 8080 tenía 4500 transistores en un solo circuito integrado.</p>
 </div>
@@ -843,8 +939,8 @@ VLSI
 <p>Es indispensable que un microprocesador esté acompañado de un <em>cooler</em> para disipar el calor que genera, y hoy en día hay dos soluciones en las PC de escritorio. Disipadores por aire con un disipador metálico de cobre o estaño y un ventilador, y refrigeración líquida.</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_memoria_ram">Memoria RAM</h4>
+<div class="sect2">
+<h3 id="_memoria_ram">Memoria RAM</h3>
 <div class="paragraph">
 <p>La memoria RAM de <em>random access memory</em> es el componente de <em>hardware</em> que implementa la memoria principal de una computadora. Se denomina de acceso aleatorio porque acceder a una posición en la memoria tiene el mismo tiempo de espera para cualquier dirección, en contraste por ejemplo con un disco rígido.</p>
 </div>
@@ -860,22 +956,58 @@ VLSI
 <div class="paragraph">
 <p>En las PC modernas los módulos de memoria vienen en un formato conocido como DIMM (<em>Dual Inline Memory Module</em>), con distintas variantes de tamaño y se conectan directamente al <em>motherboard</em> mediante zócalos dedicados.</p>
 </div>
+<div class="paragraph">
+<p>La nomenclatura DDR (<em>Double Data Rate</em>) de las memorias RAM de hoy en día hace referencia a la velocidad con la que se comunican con el bus de sistema para transferir datos a la CPU.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_almacenamiento_no_volátil">Almacenamiento no volátil</h3>
+<div class="paragraph">
+<p>La tecnología usada en la memoria principal tiene la característica de ser volátil. Sus datos se pierden al apagar la computadora. La memoria secundaria ha utilizado a lo largo de la historia de la computación distintas tecnologías para proveer de almacenamiento permanente, siendo los dispositivos magnéticos los más difundidos y usados en el tiempo. De a poco los discos rígidos, que son dispositivos magnéticos, están siendo reemplazados por la memoria flash, basada en semiconductores.</p>
+</div>
+<div class="paragraph">
+<p>La memoria de una computadora se organiza de forma piramidal en lo que se denomina la <strong>jerarquía de memorias</strong>. La idea detrás de la jeraquía de memorias es hacer como si la computadora tuviera la capacidad de almacenamiento de la base de la pirámide pero a la velocidad de la cima. Esto se logra en parte copiando los datos usados más frecuentemente hacia la cima de la pirámide para mejorar el rendimiento del sistema.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/jerarquiamem.png" alt="Memorias" width="600" height="400">
+</div>
 </div>
 <div class="sect3">
-<h4 id="_almacenamiento_no_volátil">Almacenamiento no volátil</h4>
-
+<h4 id="_discos_rígidos">Discos rígidos</h4>
+<div class="paragraph">
+<p>Existen desde la década del '50 aunque han ido mejorando su velocidad, capacidad y consumo de energía. A mediados de los '80 y con el avance de la PC de IBM en el mercado los discos rígidos tomaron la forma actual que conocemos, inalterada hasta el día de hoy. Los <strong>factores de forma</strong> comunes son de 3,5 pulgadas para PCs de escritorio y de 2,5 pulgadas para portátiles.</p>
+</div>
+<div class="paragraph">
+<p>Si bien no cambiaron demasiado en apariencia, sí lo hicieron en capacidad. Cuando comenzaron a aparecer en las computadoras personales rondaban los 5 MB y hoy en día no es extraño encontrar discos de 6 TB de capacidad.</p>
+</div>
+<div class="paragraph">
+<p>Un disco rígido consta de platos de material ferromagnético que se hacen girar por medio de un motor. Un cabezal por plato movido por un actuador lee y escribe en la superficie del plato. Las diferencias de magnetización en los platos codifican la información en código binario. El cabezal se mueve describiendo un arco desde el centro hasta el borde de los platos. Sumado al movimiento de rotación de los platos se accede a toda el área en busca de datos. La velocidad de rotación de los discos rígidos modernos es de 5400 o 7200 rpm.</p>
+</div>
 </div>
 <div class="sect3">
-<h4 id="_periféricos">Periféricos</h4>
-
-</div>
-<div class="sect3">
-<h4 id="_fuente_de_alimentación">Fuente de alimentación</h4>
+<h4 id="_memoria_flash">Memoria Flash</h4>
 
 </div>
 </div>
 <div class="sect2">
-<h3 id="_ejercicios">Ejercicios</h3>
+<h3 id="_periféricos">Periféricos</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_fuente_de_alimentación">Fuente de alimentación</h3>
+<div class="paragraph">
+<p>Si hablamos de las tradicionales PC de escritorio que todos conocemos, la fuente de alimentación posee un estándar casi inalterado por 24 años. Hablo de lo que se conoce como fuente <strong>ATX</strong>.</p>
+</div>
+<div class="paragraph">
+<p>El estándar ATX (<em>Advanced Technology eXtended</em>) fue desarrollado en 1995 por Intel y es una mejora del estándar <em>de facto</em> conocido como AT de las PC de IBM. ATX describe las dimensiones, puntos de montaje, puertos de E/S y conectores del <em>motherboard</em>, la fuente de alimentación y el gabinete.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ejercicios">Ejercicios</h2>
+<div class="sectionbody">
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -916,8 +1048,11 @@ VLSI
 </div>
 </div>
 </div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2019-05-27 12:11:03 -0300
 </div>
-
+</div>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   messageStyle: "none",
