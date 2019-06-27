@@ -20,6 +20,11 @@ title: Organización de Computadoras
 
 [html](actividad-1.html) - [pdf](pdf/actividad-1.pdf)
 
+### Actividad 2
+
+[html](actividad-2.html) - [pdf](pdf/actividad-2.pdf)
+
+
 ## Unidad 3 - CPU
 
 [html](unidad-3.html) - [pdf](pdf/unidad-3.pdf)
