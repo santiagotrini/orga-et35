@@ -24,6 +24,9 @@ title: Organización de Computadoras
 
 [html](actividad-2.html) - [pdf](pdf/actividad-2.pdf)
 
+### Actividad 3
+
+[html](actividad-3.html) - [pdf](pdf/actividad-3.pdf)
 
 ## Unidad 3 - CPU
 
