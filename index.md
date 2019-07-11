@@ -28,6 +28,10 @@ title: Organización de Computadoras
 
 [html](actividad-3.html) - [pdf](pdf/actividad-3.pdf)
 
+### Referencia de MIPS-32
+
+[pdf](pdf/mips-reference.pdf)
+
 ## Unidad 3 - CPU
 
 [html](unidad-3.html) - [pdf](pdf/unidad-3.pdf)
