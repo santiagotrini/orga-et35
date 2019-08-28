@@ -26,7 +26,7 @@ title: Organización de Computadoras
 
 ### Actividad 3
 
-[html](actividad-3.html) - [pdf](pdf/actividad-3.pdf)
+[html](actividad-3.html) - [pdf](pdf/actividad-3.pdf) - [resueltos](https://github.com/santiagotrini/ejercicios-mips)
 
 ### Referencia de MIPS-32
 
