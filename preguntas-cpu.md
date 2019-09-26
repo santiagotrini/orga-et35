@@ -8,3 +8,7 @@
 6. Logisim: implementar la CPU de TOY-8.
 7. Logisim: implementar la CPU de TOY-16.
 8. Logisim: implementar la CPU de MIPS usando el libro de Patterson y Hennesy como referencia.
+
+## Notas
+
+El libro de Patterson y Hennesy esta en las netbooks, buscarlo en la particion que corresponde al disco `D:` en Windows.
