@@ -34,6 +34,8 @@ title: Organización de Computadoras
 
 ## Unidad 3 - CPU
 
+[html](preguntas-cpu.md)
+
 [html](unidad-3.html) - [pdf](pdf/unidad-3.pdf)
 
 ## Unidad 4 - Memoria
