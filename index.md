@@ -2,6 +2,9 @@
 title: Organización de Computadoras
 ---
 
+# Evaluacion Unidad 3 - CPU (Se entrega 24/10)
+[html](unidad-3.html) - [pdf](pdf/unidad-3.pdf)
+
 # Programa
 
 [html](programa.html) - [pdf](pdf/programa.pdf)
